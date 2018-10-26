@@ -1,0 +1,747 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	background-color: #f0f0f0 !important;
+}
+
+.loginmaindiv{
+	width: 400px;
+	margin: auto;
+	padding: 20px 40px;
+	border-radius: 5px;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+
+.loginlogo{
+	width: 255px;
+	height: 80px;
+	padding: 0;
+	margin: 10px auto;
+}
+
+.loginlogo img{
+	
+	padding: 0;
+	margin: 0px auto;
+	
+}
+
+.loginlabel{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #1f2836;
+	padding: 0;
+	margin: 5px 0px;
+}
+
+.divider{
+	height: 1px;
+	background-color: #dedede;
+}
+
+.Sspace{
+	padding: 10px;
+}
+
+.logintextdiv{
+	padding: 5px 10px;
+	border-radius: 3px;
+	background-color: #fff;
+	border: 1px solid #3c9e1a;
+	margin: 0px 0px 20px 0px;
+}
+
+.logintextbox{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #1f2836;
+	padding: 2px;
+	background-color: transparent;
+	border: none;
+	width: 100%
+}
+
+input:focus{
+	outline: none;
+}
+
+.loginbtndiv{
+	width: 100%;
+	padding: 0;
+	margin: 5px 0px;
+	overflow: auto;
+}
+
+.loginbtn{
+	 background-color: #318613;
+    border: none;
+    color: #fff;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 	cursor: pointer;
+    margin: 0px 0px;
+	font-family: 'Arimo', sans-serif;
+	border-radius: 3px;
+	float: right;
+	font-size: 15px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.forgotpassowrd{
+	text-align: right;
+	padding: 0;
+	margin: 5px 0px;
+}
+
+.forgotpassowrd a{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #1f2836;
+	padding: 0;
+	margin: 0px 0px;
+}
+
+.forgotpassowrd a:hover{
+	
+	color: #3c9e1a;
+	
+}
+
+.signuptext{
+	text-align: center;
+	padding: 0;
+	margin: 5px 0px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #1f2836;
+}
+
+.signuptext a{
+	font-size: 1.1em;
+	padding: 0;
+	margin: 0px 0px;
+	color: #3c9e1a;
+}
+
+.signuptext a:hover{
+	color: #1f2836;
+}
+
+.Mspace{
+	padding: 20px;
+}
+
+.Lspace{
+	padding: 30px;
+}
+#rating{
+    color:gold;
+}
+.signupmaindiv{
+	width: 400px;
+	margin: auto;
+	padding: 20px 40px;
+	border-radius: 5px;
+	position: absolute;
+	top: 5%;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+
+/* Master page class starting */
+
+.headermaindiv{
+	width: 100%;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.topheaderdiv{
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+.headerlogo{
+	width: 215px;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.headerlogo img{
+	width: 215px;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+}
+
+.logoutdiv{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #1f2836;
+	padding: 3px 30px;
+	margin: 0;
+	border-radius: 2px;
+	background-color: #37a001;
+	float: right;
+}
+
+.logoutdiv a{
+	font-weight: normal;
+	color: #fff;
+	
+}
+
+.logoutdiv a:hover{
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+}
+
+.loginname{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #1f2836;
+	padding: 3px 30px;
+	margin: 0px 30px;
+	
+	float: right;
+}
+
+.FindProject{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #1f2836;
+	padding: 3px 10px;
+	margin: 0px 0px;
+	
+	float: right;
+}
+
+.FindProject a{
+	color: #1f2836;
+}
+
+.FindProject a:hover{
+	color: #37a001;
+}
+.toprightdiv{
+	padding: 0;
+	margin: 0;
+	float: right;
+	overflow: auto;
+}
+
+.menuheader{
+	width: 100%;
+	background: #f9f9f9;
+	padding: 10px;
+	margin: 0;
+	border-bottom: 1px solid #cecece;
+	border-top: 1px solid #cecece;
+}
+
+.topmenu{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+.topmenu ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+.topmenu ul li{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #1f2836;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+.topmenu ul li a{
+	font-family: 'Cabin', sans-serif;
+	color: #1f2836;
+	padding: 0px 20px;
+	margin: 0;
+	
+}
+
+.topmenu ul li a:hover{
+	
+	color: #1f2836;
+	text-decoration: none;
+	margin: 0;
+	
+}
+
+.filtermaindiv{
+	padding: 10px 20px;
+	margin: 30px 0px;
+	background-color: #fff;
+	
+}
+
+.SMPRheading{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.1em;
+	color: #565656;
+	padding: 5px 0px;
+	margin: 0;
+	
+}
+
+.SMPRsubheading{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #1f2836;
+	padding: 5px 0px;
+	margin: 0;
+	
+}
+
+
+.divider{
+	height: 1px;
+	background-color: #e3e3e3;
+	margin: 10px 0px;
+}
+
+.SMPRskills{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #1f2836;
+	padding: 5px 0px;
+	margin: 0;
+	
+}
+
+.SMPRskills span{
+	float: left;
+	color: #1f2836;
+	padding: 0px 5px 0px 0px;
+	margin: 0;
+	
+}
+
+.SMPRcontentdiv{
+	width: 100%;
+	margin: 30px auto;
+	padding: 20px 70px 50px 70px;
+	background-color: #fff;
+}
+
+.SMPRmainheadline{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.3em;
+	color: #1f2836;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	text-transform: uppercase;
+}
+
+.SMPRheadlabel{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #000;
+	padding: 5px 0px;
+	margin: 10px 0px 0px 0px;
+	text-transform: capitalize;
+}
+
+.SMPRtextdiv{
+	padding: 5px;
+	margin: 0px 0px;
+	background-color: #fff;
+	border: 1px solid #3c9e1a;
+}
+
+
+.SMPRtextbox{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	width: 100%;
+	background-color: transparent;
+	border: none;
+}
+
+.SMPRCALtextbox{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	width: 80%;
+	background-color: transparent;
+	border: none;
+}
+
+.SMPRtextdiv1{
+	padding: 5px;
+	margin: 0px 0px;
+	background-color: #fff;
+	border: 1px solid #3c9e1a;
+}
+
+.SMPRtextdiv1 span{
+	float: right;
+	padding: 0px 5px;
+	margin: 0px 0px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.3em;
+	color: #95a48f;
+}
+
+
+.SMPRtextdivspan{
+	
+	padding: 5px;
+	margin: 0px 5px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #1f2836;
+}
+
+.SMPRtextarea{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	width: 100%;
+	height: 80px;
+	background-color: transparent;
+	border: none;
+	resize: none;
+}
+
+textarea:focus { 
+    outline: none !important;
+   
+}
+
+.SMPRtextdiv2{
+	padding: 5px;
+	margin: 0px 0px;
+	background-color: #fff;
+	border: 1px solid #3c9e1a;
+	overflow: auto;
+	min-height: 50px;
+}
+.SMPRtextdiv2 input { 
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0 6px;
+  margin: 0;
+  width: auto;
+  max-width: inherit;
+}
+
+.skillselc{
+	padding: 2px 20px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	margin: 0px 10px;
+	background-color: #9dce8c;
+	float: left;
+	border-radius: 5px;
+}
+
+
+.uploaddiv{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #fff;
+	padding: 5px 30px;
+	margin: 5px 0px;
+	border-radius: 2px;
+	background-color: #95a48f;
+	float: right;
+    cursor:pointer;
+}
+
+.uploaddiv a{
+	font-weight: normal;
+	color: #fff;
+     cursor:pointer;
+	
+}
+
+.uploaddiv a:hover{
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+    cursor:pointer;
+}
+
+
+.submitbtn{
+	 background-color: #318613;
+    border: none;
+    color: #fff;
+    padding: 10px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 	cursor: pointer;
+    margin: 0px 0px;
+	font-family: 'Arimo', sans-serif;
+	border-radius: 3px;
+	float: left;
+	font-size: 15px;
+	text-transform: capitalize;
+	
+}
+
+
+.SMPRsubheadline{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	text-transform: uppercase;font-weight: bold;
+}
+
+.SMPRCALtextboxlabel{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #575757;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	
+	background-color: transparent;
+	border: none;
+}
+
+.SMPRCALproDecs{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #575757;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	
+	background-color: transparent;
+	border: none;
+}
+
+
+.SMPRbidamount{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.5em;
+	color: #3c9e1a;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	
+}
+
+.SMPRdownload{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #575757;
+	padding: 5px 0px;
+	margin: 0px 0px;
+
+}
+
+.SMPRdownload span{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #575757;
+	padding: 5px 15px;
+	margin: 0px 0px;
+
+}
+
+.SMPRdownload a{
+	
+	color: #3c9e1a;
+
+}
+
+.SMPRdownload a:hover{
+	
+	color: #3c9e1a;
+}
+
+.declinebtn{
+	 background-color: #95a48f;
+    border: none;
+    color: #fff;
+    padding: 10px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 	cursor: default;
+    margin: 0px 5px 0px 5px;
+	font-family: 'Arimo', sans-serif;
+	border-radius: 3px;
+	float: left;
+	font-size: 15px;
+	text-transform: capitalize;
+	
+}
+
+.viewProheading{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+	color: #3c9e1a;
+	padding: 5px 0px;
+	margin: 5px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.viewProdate{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #1b1b1b;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	
+
+}
+
+.viewProdate span{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.7em;
+	color: #1b1b1b;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	
+
+}
+.viewProdesc{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.8em;
+	color: #1b1b1b;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	
+}
+
+.technologytext{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #3c9e1a;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	
+}
+
+.projectgrid{
+	background-color: #f9f9f9;
+	padding: 10px 25px;
+	margin: 0;
+}
+
+.gridheader{
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.0em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	text-align: center;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+.gridsubhed{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	text-align: center;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+.gridsubhed span{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.7em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	text-align: center;
+}
+
+.gridsubhed a{
+	color: #3c9e1a;
+}
+
+.gridsubhed a:hover{
+	color: #3c9e1a;
+}
+
+
+.gridsubhed1{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	text-align: center;
+	border-bottom: 1px solid #cfcfcf;
+	background-color: #fff;
+}
+
+.gridsubhed1 span{
+	font-family: 'Cabin', sans-serif;
+	font-size: 0.7em;
+	color: #000;
+	padding: 5px 0px;
+	margin: 0px 0px;
+	text-align: center;
+}
+
+.gridsubhed1 a{
+	color: #3c9e1a;
+}
+
+.gridsubhed1 a:hover{
+	color: #3c9e1a;
+}
+
+.acceptbidgridbtn{
+	 background-color: #318613;
+    border: none;
+    color: #fff;
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 	cursor: default;
+    margin: 0px 5px 0px 5px;
+	font-family: 'Arimo', sans-serif;
+	border-radius: 3px;
+	
+	font-size: 11px;
+	text-transform: capitalize;
+	
+}
+
